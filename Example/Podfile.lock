@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - TRULogining (0.1.0):
+    - TRUNetworking
+  - TRUNetworking (0.1.0):
+    - AFNetworking
+
+DEPENDENCIES:
+  - TRULogining (from `../`)
+  - TRUNetworking (from `../../TRUNetworking`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  TRULogining:
+    :path: "../"
+  TRUNetworking:
+    :path: "../../TRUNetworking"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  TRULogining: 0d781f50ee334628f2f2e6619a3d4459ea6c6daf
+  TRUNetworking: 4a4f3d5d96867174a5ddc8eb5840cd1c7da89342
+
+PODFILE CHECKSUM: 5d9e14ba4b5dbf95703b24b886d5475b16d4992b
+
+COCOAPODS: 1.5.0
