@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TRULogining_Example' do
+  pod 'TRULogining', :path => '../'
+
+  target 'TRULogining_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
